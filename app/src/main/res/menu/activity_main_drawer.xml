@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navgastos"
+            android:icon="@drawable/baseline_house_24"
+            android:title="@string/menu_gastos" />
+        <item
+            android:id="@+id/navtareas"
+            android:icon="@drawable/baseline_insert_chart_outlined_24"
+            android:title="@string/menu_tareas" />
+        <item
+            android:id="@+id/navequipos"
+            android:icon="@drawable/baseline_person_24"
+            android:title="@string/menu_equipos" />
+    </group>
+</menu>
